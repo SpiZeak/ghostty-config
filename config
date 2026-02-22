@@ -1,0 +1,29 @@
+font-family = "Monaspace Neon NF"
+font-feature = calt
+font-feature = liga
+font-feature = ss01
+font-feature = ss02
+font-feature = ss03
+font-feature = ss04
+font-feature = ss05
+font-feature = ss06
+font-feature = ss07
+font-feature = ss08
+font-feature = ss09
+font-feature = ss10
+
+# Matching your Dark Horizon background
+background = #1c1e26
+foreground = #d5d8da
+
+# Set the default cursor style to a non-blinking block
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+
+# Optional: Make the cursor thicker or change its color to stand out
+# (Ghostty uses the theme's cursor color by default)
+cursor-color = #ffffff
+
+window-decoration = true
+window-theme = system
