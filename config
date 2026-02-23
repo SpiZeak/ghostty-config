@@ -12,18 +12,35 @@ font-feature = ss08
 font-feature = ss09
 font-feature = ss10
 
-# Matching your Dark Horizon background
+# --- Dark Horizon Palette ---
 background = #1c1e26
 foreground = #d5d8da
+selection-background = #2c3043
+selection-foreground = #ffffff
 
-# Set the default cursor style to a non-blinking block
+# ANSI Colors (The core of the theme)
+palette = 0=#1c1e26
+palette = 1=#e95678
+palette = 2=#29d398
+palette = 3=#fab795
+palette = 4=#26bbd9
+palette = 5=#ee64ae
+palette = 6=#59e1e3
+palette = 7=#d5d8da
+palette = 8=#626a73
+palette = 9=#ec6a88
+palette = 10=#3fdaa4
+palette = 11=#fbc3a7
+palette = 12=#3fc4de
+palette = 13=#f075b7
+palette = 14=#6be4e6
+palette = 15=#ffffff
+
+# --- Cursor & UI Enhancements ---
 cursor-style = block
 cursor-style-blink = false
+cursor-color = #59e1e3
 shell-integration-features = no-cursor
 
-# Optional: Make the cursor thicker or change its color to stand out
-# (Ghostty uses the theme's cursor color by default)
-cursor-color = #ffffff
-
-window-decoration = true
-window-theme = system
+# Tab Bar (Matches the deep navy/black of Horizon)
+desktop-notifications = true
