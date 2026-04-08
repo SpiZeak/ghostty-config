@@ -40,7 +40,8 @@ palette = 15=#ffffff
 cursor-style = block
 cursor-style-blink = false
 cursor-color = #59e1e3
-shell-integration-features = no-cursor
+shell-integration-features = no-cursor,sudo
 
 # Tab Bar (Matches the deep navy/black of Horizon)
 desktop-notifications = true
+term = xterm-256color
